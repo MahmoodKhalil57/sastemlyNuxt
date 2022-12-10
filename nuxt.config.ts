@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   },
   css: [
     '@unocss/reset/tailwind.css',
+    '@kidonng/daisyui/index.css',
   ],
   colorMode: {
     classSuffix: '',

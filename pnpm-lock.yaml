@@ -4,6 +4,7 @@ specifiers:
   '@antfu/eslint-config': ^0.30.1
   '@iconify-json/carbon': ^1.1.10
   '@iconify-json/twemoji': ^1.1.5
+  '@kidonng/daisyui': ^2.31.0
   '@nuxtjs/color-mode': ^3.2.0
   '@pinia/nuxt': ^0.4.3
   '@unocss/nuxt': ^0.46.5
@@ -12,6 +13,11 @@ specifiers:
   nuxt: ^3.0.0
   pinia: ^2.0.23
   typescript: ^4.9.3
+  unocss-preset-daisy: ^1.2.0
+
+dependencies:
+  '@kidonng/daisyui': 2.31.0
+  unocss-preset-daisy: 1.2.0_@kidonng+daisyui@2.31.0
 
 devDependencies:
   '@antfu/eslint-config': 0.30.1_ha6vam6werchizxrnqvarmz2zu
@@ -563,6 +569,10 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
+
+  /@kidonng/daisyui/2.31.0:
+    resolution: {integrity: sha512-cwIwgYOFF2KPPx0xyUycmYCk1iReMm/3inWXSS7CzSDWSni0ZvxJAaHm9Cb5xElrRRx/pKDTGNJR5imRfO6PLA==}
+    dev: false
 
   /@mapbox/node-pre-gyp/1.0.10:
     resolution: {integrity: sha512-4ySo4CjzStuprMwk35H5pPbkymjv1SF3jGLj6rAHp/xT/RF7TL7bd9CTm1xDY49K2qF7jmR/g7k+SkLETP6opA==}
@@ -1917,6 +1927,11 @@ packages:
     resolution: {integrity: sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==}
     engines: {node: '>=10'}
     dev: true
+
+  /camelcase/7.0.0:
+    resolution: {integrity: sha512-JToIvOmz6nhGsUhAYScbo2d6Py5wojjNfoxoc2mEVLUdJ70gJK2gnd+ABY1Tc3sVMyK7QDPtN0T/XdlCQWITyQ==}
+    engines: {node: '>=14.16'}
+    dev: false
 
   /caniuse-api/3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
@@ -6191,6 +6206,16 @@ packages:
     resolution: {integrity: sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==}
     engines: {node: '>= 10.0.0'}
     dev: true
+
+  /unocss-preset-daisy/1.2.0_@kidonng+daisyui@2.31.0:
+    resolution: {integrity: sha512-qjjp9sXwBs8juXKaTeKgIYOT2JuOA+tdsodqkizHh7Rjn+PjHJhDuJZeHP9ogaZbbm0Ja3sxWGw1IDzsicJV3g==}
+    peerDependencies:
+      '@kidonng/daisyui': ^2.27.0
+      unocss: ^0.45.21
+    dependencies:
+      '@kidonng/daisyui': 2.31.0
+      camelcase: 7.0.0
+    dev: false
 
   /unocss/0.46.5_@unocss+webpack@0.46.5:
     resolution: {integrity: sha512-AMURkxzvhHgjxD9KcEyo1y+zTJvjHG9O+vYWTyyMEQeCspFmGONoEtnBC9p8MGPsiW4afSEJCrIROOEl186zKQ==}

@@ -21,5 +21,9 @@
     "nuxt": "^3.0.0",
     "pinia": "^2.0.23",
     "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@kidonng/daisyui": "^2.31.0",
+    "unocss-preset-daisy": "^1.2.0"
   }
 }
