@@ -1,9 +1,7 @@
 <template>
-  <main class="py-20 px-10 text-center">
+  <main flex="~ col" justify-between items-center h-full>
+    <Layout-header />
     <slot />
-    <Footer />
-    <div class="mt-5 mx-auto text-center opacity-25 text-sm">
-      [Home Layout]
-    </div>
+    <Layout-footer />
   </main>
 </template>
