@@ -1,5 +1,5 @@
 <template>
-  <div grid w-full>
+  <div grid w-full h-full>
     <input id="my-drawer" type="checkbox" class="drawer-toggle">
     <div class="drawer-content">
       <slot name="main" />

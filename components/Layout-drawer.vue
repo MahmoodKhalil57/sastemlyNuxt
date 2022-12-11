@@ -1,7 +1,9 @@
 <template>
   <DaisyDrawercontainer>
     <template #main>
-      <slot />
+      <div h-full>
+        <slot />
+      </div>
     </template>
     <template #drawer>
       <ul class="menu py-4 w-80 bg-base-100 text-base-content">

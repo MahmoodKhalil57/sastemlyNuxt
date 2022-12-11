@@ -10,7 +10,7 @@ useHead({
 </script>
 
 <template>
-  <div overflow-x-hidden>
+  <div h-full overflow-x-hidden>
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>

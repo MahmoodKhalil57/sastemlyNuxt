@@ -1,9 +1,11 @@
 <template>
-  <main flex="~ col" justify-between items-center h-full>
+  <main h-full>
     <LayoutDrawer>
-      <Layout-header />
-      <slot />
-      <Layout-footer />
+      <div flex="~ col" justify-between items-center h-full>
+        <Layout-header />
+        <slot />
+        <Layout-footer />
+      </div>
     </LayoutDrawer>
   </main>
 </template>
