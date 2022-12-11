@@ -3,6 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@antfu/eslint-config': ^0.30.1
   '@iconify-json/carbon': ^1.1.10
+  '@iconify-json/game-icons': ^1.1.1
+  '@iconify-json/mdi': ^1.1.36
   '@iconify-json/twemoji': ^1.1.5
   '@kidonng/daisyui': ^2.31.0
   '@nuxtjs/color-mode': ^3.2.0
@@ -22,6 +24,8 @@ dependencies:
 devDependencies:
   '@antfu/eslint-config': 0.30.1_ha6vam6werchizxrnqvarmz2zu
   '@iconify-json/carbon': 1.1.11
+  '@iconify-json/game-icons': 1.1.1
+  '@iconify-json/mdi': 1.1.36
   '@iconify-json/twemoji': 1.1.7
   '@nuxtjs/color-mode': 3.2.0
   '@pinia/nuxt': 0.4.6_typescript@4.9.4
@@ -494,6 +498,18 @@ packages:
 
   /@iconify-json/carbon/1.1.11:
     resolution: {integrity: sha512-IHkHSNmTM6q6b8DuKSzd+AEMYPZywSxcb+37kZU7ywtcwsGen3aVEvWFykopIWjjwj3xdZ/5UdwJRqhZDQMlNg==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/game-icons/1.1.1:
+    resolution: {integrity: sha512-D/v2MJwb1zUs8qg+dCjt1QqHFy+7v5GC/8xij3RK0AScVZKpphazl5E/qd6OqCQHYZWtgNrLDPxJRIOhCxa78g==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
+
+  /@iconify-json/mdi/1.1.36:
+    resolution: {integrity: sha512-3aWCVjDIseO8COo8zPkmxOZUFjdWsvTQQnk6zVrOaJh2K8oKuBznw10FSJZgQM7qAn6S54/oejyqkWfODRZV1Q==}
     dependencies:
       '@iconify/types': 2.0.0
     dev: true
