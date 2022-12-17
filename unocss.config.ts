@@ -12,6 +12,7 @@ import presetDaisy from 'unocss-preset-daisy'
 
 export default defineConfig({
   shortcuts: [
+    ['mirror', 'scale-x--100'],
     ['test', 'text-red-500 text-20'],
   ],
   rules: [
