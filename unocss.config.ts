@@ -14,6 +14,15 @@ export default defineConfig({
   shortcuts: [
     ['test', 'text-red-500 text-20'],
   ],
+  rules: [
+    ['btn', {
+      'align-items': 'center',
+      'justify-content': 'center',
+      'display': 'inline-flex',
+      'border-radius': 'var(--rounded-btn)',
+      'cursor': 'pointer',
+    }],
+  ],
   presets: [
     presetUno(),
     presetAttributify(),
