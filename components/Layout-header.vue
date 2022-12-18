@@ -12,11 +12,10 @@
       <ul class="menu menu-horizontal px-1">
         <li><a>Home</a></li>
         <li><a>About</a></li>
-        <li><a>Projects</a></li>
         <li tabindex="0">
           <a rounded-t-md>
             Services
-            <i i-material-symbols-keyboard-arrow-down-rounded />
+            <i i-material-symbols-keyboard-arrow-down-rounded text-5 mb--1 ml--1 />
           </a>
           <ul class="rounded-box bg-base-100 p-2 !rounded-t-0" shadow-black shadow-2xl>
             <li><a>Development</a></li>
@@ -24,6 +23,7 @@
             <li><a>Social media</a></li>
           </ul>
         </li>
+        <li><a>Projects</a></li>
       </ul>
     </div>
     <div class="navbar-end" flex="~ row" gap-4 px-4>
