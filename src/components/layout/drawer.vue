@@ -1,5 +1,5 @@
 <template>
-  <DaisyDrawercontainer>
+  <DaisyDrawerContainer>
     <template #main>
       <div h-full>
         <slot />
@@ -26,12 +26,13 @@
         <li><a>Projects</a></li>
       </ul>
     </template>
-  </DaisyDrawercontainer>
+  </DaisyDrawerContainer>
 </template>
 
-<style scoped>
-#collapse-input:hover + .collapse-title{
-  background-color: hsla(var(--bc),var(--un-bg-opacity));
-  --un-bg-opacity: 0.1;
-}
-</style>
+  <style scoped>
+  #collapse-input:hover + .collapse-title{
+    background-color: hsla(var(--bc),var(--un-bg-opacity));
+    --un-bg-opacity: 0.1;
+  }
+  </style>
+

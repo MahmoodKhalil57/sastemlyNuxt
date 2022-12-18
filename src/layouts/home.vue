@@ -1,7 +1,7 @@
 <template>
   <main flex="~ col" justify-between items-center h-full>
-    <Layout-header />
+    <LayoutHeader />
     <slot />
-    <Layout-footer />
+    <LayoutFooter />
   </main>
 </template>

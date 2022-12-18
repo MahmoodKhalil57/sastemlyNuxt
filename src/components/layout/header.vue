@@ -5,7 +5,7 @@
         <i i-material-symbols-segment-rounded mirror text-5 />
       </label>
       <div px-4>
-        <Brand-logo />
+        <BrandLogo />
       </div>
     </div>
     <div class="navbar-center hidden lg:flex">
@@ -32,3 +32,4 @@
     </div>
   </div>
 </template>
+

@@ -21,7 +21,7 @@
     </div>
     <div class="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
       <div class="items-center grid-flow-col">
-        <Brand-logo />
+        <BrandLogo />
         <p>ACME Industries Ltd. <br>Providing reliable tech since 1992</p>
       </div>
       <div class="md:place-self-center md:justify-self-end">
@@ -34,3 +34,4 @@
     </div>
   </footer>
 </template>
+

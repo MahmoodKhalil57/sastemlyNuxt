@@ -2,9 +2,9 @@
   <main h-full>
     <LayoutDrawer>
       <div flex="~ col" justify-between items-center h-full>
-        <Layout-header />
+        <LayoutHeader />
         <slot />
-        <Layout-footer />
+        <LayoutFooter />
       </div>
     </LayoutDrawer>
   </main>
